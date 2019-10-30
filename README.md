@@ -1,3 +1,7 @@
-Run OpinionMining.py to perform hLDA topic modeling on the texts from Proposals - PAM - Spanish.xlsx
+# hLDA topic modeling
 
-You can add new words to be avoided to the list 'to_avoid.txt'
+pip3 install -r requirements.txt
+
+pip3 OpinionMining.py
+
+## Comment: You can add new words to be avoided to the list 'to_avoid.txt' in order to improve your results.
