@@ -73,8 +73,7 @@ if '__main__' == __name__:
     stop_words = get_stop_words('es')
     parser = Spanish()
 
-    # to_avoid = read_as_list('to_avoid.txt', 'latin-1')
-    to_avoid = []
+    to_avoid = read_as_list('to_avoid.txt', 'latin-1')
 
     my_sheet = 'Sheet1'
     file_name = 'Proposals - PAM - Spanish.xlsx'  # name of your excel file
