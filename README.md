@@ -1,4 +1,4 @@
-# hLDA topic modeling
+# LDA topic modeling
 
 pip3 install -r requirements.txt
 
